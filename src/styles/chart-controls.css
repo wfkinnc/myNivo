@@ -1,0 +1,39 @@
+.chart-controls_menu {
+    display: flex;
+    padding-top: 1px;
+    background: var(--main-background-color);
+    overflow-x: auto;
+    font-size: 15px;
+}
+
+.chart-controls_menu_item {
+    cursor: pointer;
+    margin-right: 1px;
+    padding: 9px 20px;
+    color: #aaa;
+    white-space: pre;
+    border-radius: 0;
+}
+
+.chart-controls_menu_item:hover {
+    color: var(--main-text-color);
+}
+
+.chart-controls_menu_item.active {
+    color: var(--main-text-color);
+    border-bottom-color: #fff;
+    background: #fff;
+}
+
+.chart-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    padding: 15px 20px 0 20px;
+}
+
+.chart-controls_item {
+    width: 31%;
+    margin-bottom: 15px;
+}

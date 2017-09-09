@@ -1,0 +1,124 @@
+.nivo_components {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nivo_components_search {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nivo_components_search input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-size: inherit;
+}
+
+.nivo_components_search input:focus {
+    outline: 0;
+    border-color: var(--accent-color);
+}
+
+.nivo_components_item {
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 12px;
+    cursor: pointer;
+    color: var(--main-text-color);
+    border: 1px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    width: 32%;
+    margin-right: 2%;
+}
+
+.nivo_components_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.nivo_components_item:focus,
+.nivo_components_item:hover {
+    color: var(--accent-color);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border-color: var(--accent-color);
+    outline: 0;
+}
+
+.nivo_components_item_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nivo_components_item_tags {
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.nivo_components_item_tags_item {
+    display: inline-block;
+    margin-left: 7px;
+    color: var(--chart-meta-color);
+}
+
+.nivo_components_item_tags_item:first-child {
+    margin-left: 0;
+}
+
+.nivo_components_item_name {
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.nivo_components_item .extras {
+    width: 24px;
+}
+
+.nivo_components_item .extras .nivo-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+    margin-top: 7px;
+}
+
+.nivo_components_item .extras .nivo-icon:first-child {
+    margin-top: 0;
+}
+
+.nivo_components_item .nivo-icon {
+    margin-right: 12px;
+}
+
+.component_meta {
+    margin-bottom: 5px;
+}
+
+.component_meta_tag {
+    display: inline-block;
+    position: relative;
+    background: rgba(233, 132, 115, 0.71);
+    color: var(--main-background-color);
+    font-size: 13px;
+    line-height: 1em;
+    padding: 6px 11px;
+    border-radius: 1px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+/*
+.component_meta_tag:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--main-background-color);
+}
+*/

@@ -1,0 +1,58 @@
+.card {
+    margin-bottom: 15px;
+    background: var(--card-background-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.card._is-expanded {
+    margin-bottom: 30px;
+}
+
+.card._is-expanded .card_toggle {
+    transform: rotate(90deg);
+}
+
+.card_header {
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+.card_header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 10px;
+    right: 20px;
+    background-image: url('../assets/nivo-settings.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card_header h3 {
+    margin: 0 !important;
+    color: #000 !important;
+    padding: 12px 0 12px 16px !important;
+}
+
+.card_toggle {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--accent-color);
+    width: 14px;
+    height: 14px;
+    transform: rotate(0);
+    transition: transform 200ms;
+    background-image: url('../assets/nivo-toggle.png');
+    background-size: contain;
+    background-position: center;
+}
